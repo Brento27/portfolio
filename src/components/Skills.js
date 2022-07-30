@@ -34,9 +34,8 @@ export const Skills = () => {
             <div className='skill-bx wow zoomIn'>
               <h2>Skills</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
+                Here are a few of my top skills in my respected fields.<br></br>{' '}
+                Press the Arrow to scroll through my skills.
               </p>
               <Carousel
                 responsive={responsive}
@@ -44,7 +43,7 @@ export const Skills = () => {
                 className='owl-carousel owl-theme skill-slider'
               >
                 <div className='item'>
-                  <img src={meter1} alt='Skills' />
+                  <img src={meter3} alt='Skills' />
                   <h5>Web Development</h5>
                 </div>
                 <div className='item'>
@@ -58,6 +57,18 @@ export const Skills = () => {
                 <div className='item'>
                   <img src={meter1} alt='Skills' />
                   <h5>Tailwind-CSS</h5>
+                </div>
+                <div className='item'>
+                  <img src={meter1} alt='Skills' />
+                  <h5>Bootstrap-CSS</h5>
+                </div>
+                <div className='item'>
+                  <img src={meter2} alt='Skills' />
+                  <h5>MongoDB</h5>
+                </div>
+                <div className='item'>
+                  <img src={meter2} alt='Skills' />
+                  <h5>FireBase</h5>
                 </div>
               </Carousel>
             </div>
